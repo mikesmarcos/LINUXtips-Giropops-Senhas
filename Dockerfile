@@ -6,8 +6,6 @@ COPY . /app
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN ls /app/ -lhart
-
 FROM cgr.dev/chainguard/python:latest
 
 ENV REDIS_HOST=""
